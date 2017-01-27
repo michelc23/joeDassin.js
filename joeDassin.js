@@ -1,10 +1,9 @@
 var isset = function isset () {
     var argument = arguments;
-    var taille_arg = argument.length;
     var i = 0;
     var indefini;
     
-    if (taille_arg === 0) {
+    if (argument.length === 0) {
         return false;
     }
     
